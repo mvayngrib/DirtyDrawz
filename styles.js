@@ -62,7 +62,7 @@ var styles = StyleSheet.create({
   
   logos: {
 	  width:200,
-	  height: 200,  
+	  height: 200  
   },
   
   logoSet: {
@@ -70,8 +70,21 @@ var styles = StyleSheet.create({
 	  flexDirection: 'column',
 	  alignItems: 'center',
 	  margin:50
-  }
+  },
   
+	inputBoxWithCaption:{
+		flex:1,
+		flexDirection:'row',
+		height: 60,
+		paddingBottom:40,
+		paddingTop:40
+	},
+	
+	/*captionOfInputButton:{
+		width:400,
+		fontWeight:'bold',
+	}*/
+	
 })
 
 module.exports = styles

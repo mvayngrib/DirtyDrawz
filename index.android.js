@@ -1,53 +1,68 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * @flow
+ */
+
 import React, { Component } from 'react';
-import ReactNative from 'react-native';
 import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  Image
 } from 'react-native';
 
-const StartButton = require('./android/components/StartButton'); 
-const UInput = require('./android/components/UInput');
-const DisplayLogo = require('./android/components/DisplayLogo');
-const styles = require('./styles.js');
+import MyScene from './MyScene';
+import Button from './Button';
 
-
-
-
-
-class AwesomeProject extends Component {
+class test extends Component {
   render() {
     return (
-		
-		<View style={styles.container}>
-			<View style={styles.logoSet}>
-				<DisplayLogo />
-			</View>
-		
-			<View style={styles.loginInfo}>
-				<UInput title="Username"/>
-				<UInput title="Password"/>
-		
-				<View style={styles.buttons}>
-					<StartButton title="Login" onpress={"()" ==""> {}} />
-
-					<StartButton title="Register" onpress={"()" == ""> {}} />
-				</View>
-			</View>
-
-
-
-		</View> 
-		
+      <View style={styles.container}>
+        /*<View>
+          <Image
+          style={{
+            width:200,
+	          height: 200
+          }}
+          source={require('Logo.JPG')}
+          />
+        </View>*/
+        <View style={{
+          flexDirection:'row',
+          justifyContent: 'center',
+          alignItems: 'center'
+        }}>
+          <MyScene boxWidth={170} caption="First Name: "/>
+          <MyScene boxWidth={170} caption="Last Name:"/>
+        </View>
+          <MyScene boxWidth={340} caption="Address: "/>
+          <MyScene boxWidth={340} caption="E-mail: "/>
+          <MyScene boxWidth={340} caption="Phone Number: "/>
+          <View style={{
+            flexDirection:'row',
+            paddingTop: 20,
+            justifyContent: 'space-around',
+            alignItems: 'center',
+            width:300,
+          }}>
+            <Button title="Back" onpress={"()" ==""> {}}/>
+            <Button title="Register" onpress={"()" ==""> {}}/>
+          </View>
+      </View>
     );
   }
 }
 
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: '#FFFFFF',
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection:'column'
+  }
+});
 
-
-
-
-			
-
-AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
+AppRegistry.registerComponent('test', () => test);
