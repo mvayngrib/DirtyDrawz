@@ -16,6 +16,6 @@ And there are two more js scripts in the main folder, one is Button.js, for the 
   
   
 2. If you want to integrate them.
-  As I describe above, there is no need for you to install anything. so just copy all the files to your project and modify the registration.js and account.js to suit your project. That's all.
+  As I describe above, there is no need for you to install anything. so just copy all the files----registration.js, account.js, react-native-side-menu, RegistrationItem.js and Button.js----to your project and modify the registration.js and account.js to suit your project. That's all.
 
 If any questions, contact me.
