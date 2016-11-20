@@ -6,6 +6,12 @@ export default class Button extends Component {
 		super(props);
 		this.state = {text: ""};
 	}
+    handlePress(e) {
+    if (this.props.onPress) {
+      this.props.onPress(e);
+    }
+  }
+
   static get defaultProps() {
     return {
       title: 'Button'
@@ -16,15 +22,15 @@ export default class Button extends Component {
 		<View style={{
             justifyContent:'center',
             alignItems:'center',
-            backgroundColor: '#24CE84',
+            backgroundColor: '#ff5522',
             borderColor: 'transparent',
-            width: 125,
+            width:this.props.width,
             height: 50,
-            borderRadius: 10
+            borderRadius: 20
         }}>
 			<TouchableHighlight
                 underlayColor={'#24CE84'}
-                onPress={this.props.onPress}>
+                onPress={this.handlePress.bind(this)}>
                 <Text style={{
                     color: '#fff',
                     textAlign: 'center',

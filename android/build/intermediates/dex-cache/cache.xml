@@ -2,165 +2,165 @@
 <items version="2" >
 
     <item
-        jar="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\classes-19f5463e178d549184ebf89f7c029b3c7637a0b0.jar" />
-    </item>
-    <item
-        jar="C:\Users\Shawn Han\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0-7293e3938543a50d5ac7ce0acb30c905b51f6a22.jar" />
-    </item>
-    <item
-        jar="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.11.0\jars\classes.jar"
+        jar="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.11.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\classes-330191b5bd3cb00e88fa70968bf08520b889db4d.jar" />
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\classes-630e8f7cc31ecfeabdccf373e6d0068912bc3153.jar" />
     </item>
     <item
-        jar="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\classes-f774feabeb22518e9efbee00f266876d705d02e5.jar" />
-    </item>
-    <item
-        jar="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.11.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\classes-11a92a1a9511ea51f796ac4b213e437a8524818e.jar" />
-    </item>
-    <item
-        jar="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\classes-ba151cfc94ea18ea32a16bbd8e85d254205a8c45.jar" />
-    </item>
-    <item
-        jar="D:\work\androidSDK\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1-6364b9dc848966eff70be31ee890f1da45f3e795.jar" />
-    </item>
-    <item
-        jar="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.11.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\classes-7941ab571c85578ce924ec4464f35a9f4be8b299.jar" />
-    </item>
-    <item
-        jar="C:\Users\Shawn Han\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.3\1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14\jackson-core-2.2.3.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.3-2076b69c6cd03501985fa9569fd25880d876dfa6.jar" />
-    </item>
-    <item
-        jar="C:\Users\Shawn Han\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0-dcb511e94e6a84a6cacd917d9ddb5a18ed619b91.jar" />
-    </item>
-    <item
-        jar="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.34.1\jars\libs\infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="085d4b604a91b790ed60ccf219b0c30c9db7d9ea">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-a64bdf09da3476a986152115e3bfbb6654b0e4e9.jar" />
-    </item>
-    <item
-        jar="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.11.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\classes-1b268135e5d8748432c196241e473ddb5b835c59.jar" />
-    </item>
-    <item
-        jar="C:\Users\Shawn Han\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\javax.inject-1-037cdf89438b9a9234be4f04b5b2619036e8baff.jar" />
-    </item>
-    <item
-        jar="C:\Users\Shawn Han\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0-c3bc5e52f46d09bdf6a30e0e5eccdc21aed46262.jar" />
-    </item>
-    <item
-        jar="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.34.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="24959c1d0b0991e7d0d42ab7bd7e7d68b2c3e679">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\classes-78d2070ba4f29f46d97325889130cbf75005d69c.jar" />
-    </item>
-    <item
-        jar="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\0.11.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\classes-41d318f593315d6982f3fa7c056c4e3742410bcf.jar" />
-    </item>
-    <item
-        jar="C:\Users\Shawn Han\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1-298be050bec2f59b0358e0938d7d912f6ec67c7f.jar" />
-    </item>
-    <item
-        jar="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\classes-cc3245128c54e6a91c43c665f783a50edf05b58a.jar" />
-    </item>
-    <item
-        jar="C:\Users\Shawn Han\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1-f6362374374b975f3e3ccf35efb9b8bff3452820.jar" />
-    </item>
-    <item
-        jar="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.11.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\classes-0a2037e32077f66e0a8fac6a33493809421ab607.jar" />
-    </item>
-    <item
-        jar="C:\Users\Shawn Han\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
+        jar="C:\Users\shawn\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1-d5a8b2f3b181daa1fa81d0365c257c54d35d5775.jar" />
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1-88884aac885723885b353ce3d7bbf271987b94ac.jar" />
     </item>
     <item
-        jar="C:\Users\Shawn Han\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jar="D:\work\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\library-2.4.0-93f055c963946c47e096ca78280c5e38ac04805e.jar" />
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1-5774f5ea1fa47affa9dd827713d56f88d2b964c5.jar" />
     </item>
     <item
-        jar="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jar="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\classes-fc808290f0b4989b2d9760ce96519efea388e129.jar" />
+    </item>
+    <item
+        jar="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\classes-deb6268797bd6d6464210891c4f432f5c4bcd07e.jar" />
+    </item>
+    <item
+        jar="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.34.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="24959c1d0b0991e7d0d42ab7bd7e7d68b2c3e679">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\classes-ab27f108638dd23c3bd8939f30cf88f8bbe7f906.jar" />
+    </item>
+    <item
+        jar="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.34.1\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="085d4b604a91b790ed60ccf219b0c30c9db7d9ea">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-1c1ad3154ea8bdd3e2f3b357967474e82044a7f7.jar" />
+    </item>
+    <item
+        jar="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\classes-2841ef4f9caa8549b15bff2e903b4d4646b60ab0.jar" />
+    </item>
+    <item
+        jar="C:\Users\shawn\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0-a90ad09be4b8c75d674e141c2194c3bda7eb8d26.jar" />
+    </item>
+    <item
+        jar="C:\Users\shawn\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1-8ea82fd52868d5f79a7e06c2b03b08f73c012fab.jar" />
+    </item>
+    <item
+        jar="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\classes-31edc5d27a199ff322504584bd5e487fa4395b27.jar" />
+    </item>
+    <item
+        jar="C:\Users\shawn\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\javax.inject-1-144a0599fefdaf7dd4e65e57ad726b69099f2ff6.jar" />
+    </item>
+    <item
+        jar="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="D:\work\16fall_Semester\EC601\finalProject\test\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1-ffa7eff5e87e963cd0d4d0cf2fb713d383efc2f5.jar" />
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1-db572d875c9fac34046932bb12ce1546c7ffca8a.jar" />
+    </item>
+    <item
+        jar="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\classes-6696a70cda4eaffddc7efd99d10f01d7e2f4d91e.jar" />
+    </item>
+    <item
+        jar="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\classes-b30564c85ed4833cf517cb0253a084f885f8214a.jar" />
+    </item>
+    <item
+        jar="C:\Users\shawn\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0-a7bce86ec5b406826cb7632cb63ded6b76d40e78.jar" />
+    </item>
+    <item
+        jar="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\classes-9041c768e76f3b3a093a48d0ca085491356128e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\shawn\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.3\1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14\jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.3-a9064cc2d998ff2630c9b811d189c3f79a54871b.jar" />
+    </item>
+    <item
+        jar="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\classes-edda3d2571cf8a181d85b77623592165eae1663f.jar" />
+    </item>
+    <item
+        jar="C:\Users\shawn\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0-0962787aa86de1da427594e8cef74133c7147dcc.jar" />
+    </item>
+    <item
+        jar="C:\Users\shawn\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\library-2.4.0-a678164c966bb54f9255b3a10954141ed23b9079.jar" />
+    </item>
+    <item
+        jar="C:\Users\shawn\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1-9b70a9092485c096576ed3b9b95589e0e29aaa18.jar" />
+    </item>
+    <item
+        jar="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\build\intermediates\pre-dexed\debug\classes-14f258b9d585f642e347da10492228afb42794d9.jar" />
     </item>
 
 </items>
