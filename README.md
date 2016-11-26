@@ -2,8 +2,6 @@
 
 I've finished Four parts, Registration, SideMenu Order and Account.
 
-Actually SideMenu is not a ioslated page, all the stuffs of it are in the folder "react-native-side-menu". For the rest, Registration is registration.js, Account is account.js, Order is order.js. 
-
 Actually SideMenu is not a isolated page, all the stuff of it are in the folder "react-native-side-menu". For the rest, Registration is registration.js, Account is account.js, Order is order.js
 
 And there are two more js scripts in the main folder, one is Button.js, for the button, another is RegistrationItem.js, displaying the entry of account information.
