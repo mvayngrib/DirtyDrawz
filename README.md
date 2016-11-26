@@ -12,7 +12,7 @@ And there are two more js scripts in the main folder, one is Button.js, for the 
     For Registration and Account, after you done with this, just ran it like a regular react native project. I didn't use any dependencies so there is no need for you to install anything. 
     For Order, you have to install collapsible components first. Check the link: https://github.com/oblador/react-native-collapsible to see how to it does.
   
-2. If you want to integrate them
+2. If you want to integrate them.
   As I describe above, for Registration and Account, there is no need for you to install anything. For Order, you have to install collapsible components first.
   Copy all these files&folders:
 	orderAssets
