@@ -2,7 +2,7 @@
 manifest
 ADDED from D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\src\main\AndroidManifest.xml:1:1-31:12
 	package
-		ADDED from D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\src\main\AndroidManifest.xml:2:5-26
+		ADDED from D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\src\main\AndroidManifest.xml:2:5-24
 		INJECTED from D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -86,7 +86,7 @@ MERGED from [org.webkit:android-jsc:r174650] D:\work\16fall_Semester\EC601\final
 		ADDED from D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\src\main\AndroidManifest.xml:18:7-38
 	android:name
 		ADDED from D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\src\main\AndroidManifest.xml:14:7-38
-activity#com.account.MainActivity
+activity#com.order.MainActivity
 ADDED from D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\src\main\AndroidManifest.xml:19:7-27:18
 	android:label
 		ADDED from D:\work\16fall_Semester\EC601\finalProject\shawn\android\app\src\main\AndroidManifest.xml:21:9-41

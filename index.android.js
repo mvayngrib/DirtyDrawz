@@ -1,5 +1,5 @@
 const React = require('react-native');
 const { AppRegistry, } = React;
-const account = require('./account');
+const account = require('./order');
 
-AppRegistry.registerComponent('account', () => account);
+AppRegistry.registerComponent('order', () => account);
