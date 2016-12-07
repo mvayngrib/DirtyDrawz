@@ -1,108 +1,3 @@
-// *
- // * Sample React Native App
- // * https://github.com/facebook/react-native
- // * @flow
-
-
-// import React, { Component } from 'react';
-// import {
-  // AppRegistry,
-  // StyleSheet,
-  // Text,
-  // View
-// } from 'react-native';
-
-// class AwesomeProject extends Component {
-  // render() {
-    // return (
-      // <View style={styles.container}>
-        // <Text style={styles.welcome}>
-          // Welcome to React Native!
-        // </Text>
-        // <Text style={styles.instructions}>
-          // Hello World! My name is Alex Bennett! 
-		  // This is my first attempt at developing
-		  // an Android application! 
-        // </Text>
-  
-      // </View>
-    // );
-  // }
-// }
-
-// const styles = StyleSheet.create({
-  // container: {
-    // flex: 1,
-    // justifyContent: 'center',
-    // alignItems: 'center',
-    // backgroundColor: '#F5FCFF',
-  // },
-  // welcome: {
-    // fontSize: 20,
-    // textAlign: 'center',
-    // margin: 10,
-  // },
-  // instructions: {
-    // textAlign: 'center',
-    // color: '#333333',
-    // marginBottom: 5,
-  // },
-// });
-
-// AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
-
-// import React, { Component } from 'react';
-// import ReactNative from 'react-native';
-// import {
-  // AppRegistry,
-  // StyleSheet,
-  // Text,
-  // View
-// } from 'react-native';
-
-// const StartButton = require('./android/components/StartButton'); 
-// const UInput = require('./android/components/UInput');
-// const DisplayLogo = require('./android/components/DisplayLogo');
-// const styles = require('./styles.js');
-
-
-
-
-
-// class AwesomeProject extends Component {
-  // render() {
-    // return (
-		
-		// <View style={styles.container}>
-			// <View style={styles.logoSet}>
-				// <DisplayLogo />
-			// </View>
-		
-			// <View style={styles.loginInfo}>
-				// <UInput title="Username"/>
-				// <UInput title="Password"/>
-		
-				// <View style={styles.buttons}>
-					// <StartButton title="Login" onpress={"()" ==""> {}} />
-
-					// <StartButton title="Register" onpress={"()" == ""> {}} />
-				// </View>
-			// </View>
-
-
-
-		// </View> 
-		
-    // );
-  // }
-// }
-
-
-// // AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
-
-
-
-// Below this is where your actual app is! 
 
 import React, { Component } from 'react';
 import ReactNative from 'react-native';
@@ -114,7 +9,77 @@ import {
   Navigator,
   TouchableOpacity,
 } from 'react-native';
+// import './shim.js'
+// var _mysql = require('mysql');
 
+// var HOST = 'ip-172-31-51-183';
+// var PORT = 3306;
+// var MYSQL_USER = 'ldunphy';
+// var MYSQL_PASS = 'umd2010';
+// var DATABASE = 'EC601';
+// var TABLE = 'orders';
+
+// var mysql = _mysql.createConnection({
+//     host: HOST,
+//     port: PORT,
+//     user: MYSQL_USER,
+//     password: MYSQL_PASS,
+// });
+
+// mysql.query('use ' + DATABASE);
+
+// mysql.query('select customerID, address, city from ' + TABLE + ' where customerID = 1',
+// function(err, result, fields) {
+//     if (err) throw err;
+//     else {
+//         console.log('Gadgets which costs less than $100');
+//         console.log('----------------------------------');
+//         for (var i in result) {
+//             var gadget = result[i];
+//             console.log(gadget.address +': '+ gadget.city);
+//         }
+//     }
+// });
+
+// class dirtydrawz extends Component {
+//   render() {
+//     return (
+//       <View style={styles.container}>
+      
+//         <Text style={styles.welcome}>
+//           Welcome to React Native!
+//           LINDSEY WAS HERE
+//         </Text>
+//         <Text style={styles.instructions}>
+//           To get started, edit index.android.js
+//         </Text>
+//         <Text style={styles.instructions}>
+//           Double tap R on your keyboard to reload,{'\n'}
+//           Shake or press menu button for dev menu
+//         </Text>
+//       </View>
+//     );
+//   }
+// }
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     justifyContent: 'center',
+//     alignItems: 'center',
+//     backgroundColor: '#F5FCFF',
+//   },
+//   welcome: {
+//     fontSize: 20,
+//     textAlign: 'center',
+//     margin: 10,
+//   },
+//   instructions: {
+//     textAlign: 'center',
+//     color: '#333333',
+//     marginBottom: 5,
+//   },
+// });
 var LoginPage = require('./android/pages/login')
 var RegistrationPage = require('./android/pages/registration')
 var PassRecoveryPage = require('./android/pages/passwordRecovery')
@@ -236,132 +201,3 @@ class dirtydrawz extends Component {
 
 			
 AppRegistry.registerComponent('dirtydrawz', () => dirtydrawz);
-
-// Above this is where your actual app is! thanks you! 
-
-// *
- // * Sample React Native App
- // * https://github.com/facebook/react-native
-
-// 'use strict';
-
-// var React = require('react');
-// var SideMenu = require('react-native-side-menu');
-// var {
-  // AppRegistry,
-  // StyleSheet,
-  // Text,
-  // View,
-  // Navigator,
-// } from ;
-
-// var ContentView = React.createClass({
-  // render: function() {
-    // return (
-      // <View style={styles.container}>
-        // <Text style={styles.welcome}>
-          // Welcome to React Native!
-        // </Text>
-        // <Text style={styles.instructions}>
-          // To get started, edit index.ios.js
-        // </Text>
-        // <Text style={styles.instructions}>
-          // Press Cmd+R to reload,{'\n'}
-          // Cmd+D or shake for dev menu
-        // </Text>
-      // </View>
-    // );
-  // }
-// });
-
-// var TestView = React.createClass({
-  // render: function() {
-    // return (
-      // <View style={styles.container}>
-        // <Text style={styles.welcome}>
-          // Welcome to another page.
-        // </Text>
-        // <Text style={styles.instructions}>
-          // Testing react native side menu with navigator.
-        // </Text>
-      // </View>
-    // );
-  // }
-// });
-
-// var Menu = React.createClass({
-  // about: function() {
-    // this.props.menuActions.close();
-    // this.props.navigator.push({
-      // component: TestView,
-      // title: 'Test View',
-    // });
-  // },
-
-  // render: function() {
-    // return (
-      // <View style={styles.sidemenu}>
-        // <Text style={styles.paddingMenuItem}>Menu</Text>
-        // <Text onPress={this.about} style={styles.paddingMenuItem}>About</Text>
-      // </View>
-    // );
-  // }
-// });
-
-// var SideMenuTest = React.createClass({
-  // render: function() {
-    // return (
-      // <Navigator
-       // initialRoute={{
-         // component: Something,
-         // title: 'Something',
-       // }}
-       // configureScene={() => {
-         // return Navigator.SceneConfigs.FadeAndroid;
-       // }}
-       // renderScene={(route, navigator) => {
-         // if(route.component) {
-           // return React.createElement(route.component, { navigator });
-         // }
-       // }}/>
-    // );
-  // }
-// });
-
-// var Something = React.createClass({
-  // render: function() {
-    // var menu = <Menu navigator={this.props.navigator}/>;
-    // return (
-      // <SideMenu menu={menu}>
-        // <ContentView/>
-      // </SideMenu>
-    // );
-  // }
-// });
-
-// var styles = StyleSheet.create({
-  // container: {
-    // flex: 1,
-    // justifyContent: 'center',
-    // alignItems: 'center',
-    // backgroundColor: '#F5FCFF',
-  // },
-  // welcome: {
-    // fontSize: 20,
-    // textAlign: 'center',
-    // margin: 10,
-  // },
-  // instructions: {
-    // textAlign: 'center',
-    // color: '#333333',
-    // marginBottom: 5,
-  // },
-  // sidemenu: {
-    // paddingTop: 50,
-  // },
-  // paddingMenuItem: {
-    // padding: 10,
-  // },
-// });
-
-// AppRegistry.registerComponent('SideMenuTest', () => SideMenuTest);

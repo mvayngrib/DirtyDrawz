@@ -30,8 +30,7 @@ class LoginPage extends Component {
 	render() {
 		return (
 			<Navigator
-				renderScene={this.renderScene.bind(this)}
-				/>
+				renderScene={this.renderScene.bind(this)}/>
 		);
 	}
 renderScene(route,navigator) {
@@ -43,14 +42,12 @@ renderScene(route,navigator) {
 					placeholder = "Username"
 					style = {styles.infoText}
 					onChangeText={(text) => this.setState({username:text})}
-					value={this.state.username}
-				/>
+					value={this.state.username}/>
 				<TextInput 
 					placeholder = "Password"
 					style = {styles.infoText}
 					onChangeText={(text) => this.setState({password:text})}
-					value={this.state.password}
-				/>
+					value={this.state.password}/>
 
 				<View style={styles.buttons}>
 					<Button title="Login" onPress={this.gotoOrder.bind(this)} />

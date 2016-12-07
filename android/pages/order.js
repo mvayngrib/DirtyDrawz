@@ -5,7 +5,6 @@
  */
 const SideMenu = require('./components/react-native-side-menu');
 const Menu=require('./components/react-native-side-menu/Menu');
-
 import React, { Component } from 'react';
 import {
   StyleSheet,
@@ -20,14 +19,11 @@ import {
 } from 'react-native';
 import DatePicker from 'react-native-datepicker';
 import Accordion from 'react-native-collapsible/Accordion';
-
 import RegistrationItem from './components/RegistrationItem';
 import Topbar from './components/react-native-side-menu/Topbar';
 import ListItem from './components/react-native-side-menu/ListItem';
 import Button from './components/Button';
-
 const styles = require('./styles');
-
 const SECTIONS=[
   {
     title:'Laundry'
@@ -35,14 +31,13 @@ const SECTIONS=[
   {
     title:'Dry Cleaning'
   }
-];
+];  
 class CheckBox extends Component {
   handlePress() {
     if (this.props.onPress) {
       this.props.onPress();
     }
-  }
-  
+}
   render() {
     if (this.props.checked==true)
       return (
