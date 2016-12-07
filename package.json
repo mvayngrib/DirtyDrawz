@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "postinstall": "rn-nodeify --install fs,dgram,process,path,console --hack"
+    "postinstall": "rn-nodeify --install --hack"
   },
   "dependencies": {
     "assert": "^1.1.1",
@@ -36,7 +36,7 @@
     "react-native-toggle": "^1.0.3",
     "react-native-udp": "^1.2.0",
     "react-native-vector-icons": "^3.0.0",
-    "readable-stream": "^1.0.33",
+    "readable-stream": "1.0.33",
     "stream-browserify": "^1.0.0",
     "timers-browserify": "^1.0.1",
     "tty-browserify": "0.0.0",

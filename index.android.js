@@ -9,42 +9,42 @@ import {
   Navigator,
   TouchableOpacity,
 } from 'react-native';
-var _mysql = require('mysql');
+// var _mysql = require('mysql');
 
-var HOST = 'ip-172-31-51-183';
-var PORT = 3306;
-var MYSQL_USER = 'ldunphy';
-var MYSQL_PASS = 'umd2010';
-var DATABASE = 'EC601';
-var TABLE = 'orders';
+// var HOST = 'ip-172-31-51-183';
+// var PORT = 3306;
+// var MYSQL_USER = 'ldunphy';
+// var MYSQL_PASS = 'umd2010';
+// var DATABASE = 'EC601';
+// var TABLE = 'orders';
 
-var mysql = _mysql.createConnection({
-    host: HOST,
-    port: PORT,
-    user: MYSQL_USER,
-    password: MYSQL_PASS,
-});
+// var mysql = _mysql.createConnection({
+//     host: HOST,
+//     port: PORT,
+//     user: MYSQL_USER,
+//     password: MYSQL_PASS,
+// });
 
-mysql.query('use ' + DATABASE);
+// mysql.query('use ' + DATABASE);
 
-mysql.query('select customerID, address, city from ' + TABLE + ' where customerID = 1',
-function(err, result, fields) {
-    if (err) throw err;
-    else {
-        console.log('Gadgets which costs less than $100');
-        console.log('----------------------------------');
-        for (var i in result) {
-            var gadget = result[i];
-            console.log(gadget.address +': '+ gadget.city);
-        }
-    }
-});
+// mysql.query('select customerID, address, city from ' + TABLE + ' where customerID = 1',
+// function(err, result, fields) {
+//     if (err) throw err;
+//     else {
+//         console.log('Gadgets which costs less than $100');
+//         console.log('----------------------------------');
+//         for (var i in result) {
+//             var gadget = result[i];
+//             console.log(gadget.address +': '+ gadget.city);
+//         }
+//     }
+// });
 
 class dirtydrawz extends Component {
   render() {
     return (
       <View style={styles.container}>
-      
+
         <Text style={styles.welcome}>
           Welcome to React Native!
           LINDSEY WAS HERE
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
 // var FAQPage = require('./android/pages/faq')
 
 // class dirtydrawz extends Component {
-	
+
 // 	constructor(props) {
 // 		super(props);
 // 		this._setNavigatorRef = this._setNavigatorRef.bind(this);
@@ -100,10 +100,10 @@ const styles = StyleSheet.create({
 // 			<Navigator
 // 				initialRoute ={{id:'login', name:'login'}}
 // 				renderScene={this.renderScene.bind(this)}
-// 				/>				 
+// 				/>
 // 			);
 //   }
-  
+
 //   renderScene(route, navigator) {
 // 	  var routeID = route.id;
 // 	  if(routeID === 'login') {
@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
 // 			);
 // 	  }
 // 	  if(routeID === 'account') {
-// 		  return ( 
+// 		  return (
 // 		  <AccountPage
 // 			navigator={navigator} />
 // 			);
@@ -167,12 +167,12 @@ const styles = StyleSheet.create({
 // 	  <View styel={{flex:1, alighItems: 'stretch', justifyContent: 'center'}}>
 // 		<TouchableOpacity style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}
 // 			onPress={() => navigator.pop()}>
-// 			<Text style={{color: 'red', fontWeight: 'bold'}}> Hello please index.js at renderScene I am confused </Text> 
+// 			<Text style={{color: 'red', fontWeight: 'bold'}}> Hello please index.js at renderScene I am confused </Text>
 // 			</TouchableOpacity>
 // 		</View>
 // 		);
 //   }
-  
+
 //     _setNavigatorRef(navigator) {
 //     if (navigator !== this._navigator) {
 //       this._navigator = navigator;
@@ -197,5 +197,5 @@ const styles = StyleSheet.create({
 //     }
 //   }
 // }
-		
+
 AppRegistry.registerComponent('dirtydrawz', () => dirtydrawz);

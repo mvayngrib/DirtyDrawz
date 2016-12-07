@@ -6,7 +6,7 @@ import com.oblador.vectoricons.VectorIconsPackage;
 import com.tradle.react.UdpSocketsModule;
 import com.peel.react.TcpSocketsModule;
 import com.bitgo.randombytes.RandomBytesPackage;
-import com.peel.react.RNOSModule;
+import com.peel.react.rnos.RNOSModule;
 import com.github.xinthink.rnmk.ReactMaterialKitPackage;
 import com.bitgo.randombytes.RandomBytesPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
